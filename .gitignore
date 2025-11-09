@@ -3,3 +3,29 @@
 /benchmark_comparison
 /example_usage 
 /test_simple 
+
+# Ignore common build artifacts and executables
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dSYM/
+bin/
+build/
+dist/
+
+# Typical C/C++ binary names produced by this repo
+bs_greeks_validation
+
+# Python cache and macOS junk
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Keep source files and the Makefile tracked
+!*.cpp
+!*.h
+!*.hpp
+!Makefile
+!*.py
