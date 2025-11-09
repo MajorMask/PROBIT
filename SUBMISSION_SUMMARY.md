@@ -20,7 +20,7 @@ The submission package is located in `submission_package/` directory.
 ## Build and Test
 
 ```bash
-cd submission_package
+cd PROBIT
 make
 ./test_simple
 ```

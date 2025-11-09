@@ -41,7 +41,7 @@ g++ -std=c++17 -O3 -march=native -o test test_benchmark.cpp -lm
 ## Project Structure
 
 ```
-project/
+PROBIT/
 ├── export_coefficients.py      # Derives rational approximation coefficients
 ├── json_to_header.py            # Generates C++ header from JSON data
 ├── coefficients.json            # Coefficient data (generated)
