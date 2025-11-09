@@ -2,7 +2,7 @@
 
 ## Package Contents
 
-The submission package is located in `submission_package/` directory.
+The submission package is located in `PROBIT/` directory.
 
 ### Core Files
 
