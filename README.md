@@ -8,6 +8,8 @@ Fast, accurate probit function (30.6x speedup, ~1e-15 accuracy)
 ```bash
 make              # Build all
 make test        # Run tests
+make benchmark_comparison # Run benchmark
+./benchmark_comparison
 ./test_simple    # Quick verification
 ```
 
