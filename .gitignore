@@ -1,2 +1,5 @@
 /.venv
 /test_benchmark
+/benchmark_comparison
+/example_usage 
+/test_simple 

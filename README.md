@@ -18,6 +18,12 @@ make
 # Run tests
 make test
 
+# Run benchmark comparison
+
+make benchmark_comparison
+./benchmark_comparison
+
+
 # Clean build artifacts
 make clean
 ```
@@ -250,17 +256,3 @@ Alternative approaches considered but rejected:
 - Newton iteration: slower convergence than Halley
 - Runtime JSON loading: unnecessary overhead for static data
 - Manual coefficient entry: error-prone and not reproducible
-
-## References
-
-- Wichura, M. J. (1988). Algorithm AS 241: The percentage points of the normal distribution. Applied Statistics.
-- Acklam, P. J. (2003). An algorithm for computing the inverse normal cumulative distribution function.
-- Assignment specification: OP Kiitorata Trainee Program
-
-## License
-
-Submitted as part of OP Kiitorata Trainee Program evaluation.
-
-## Contact
-
-Refer to assignment submission guidelines for contact information.

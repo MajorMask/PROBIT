@@ -150,8 +150,8 @@ def export_coefficients(output_path='coefficients.json'):
     with open(output_path, 'w') as f:
         json.dump(config, f, indent=2)
     
-    print(f"\n✅ Coefficients exported to: {output_path}")
-    print(f"\n📊 Statistics:")
+    print(f"\n Coefficients exported to: {output_path}")
+    print(f"\n Statistics:")
     print(f"   Central region: m={central['degree_m']}, n={central['degree_n']}")
     print(f"     - Max error: {central['max_error']:.6e}")
     print(f"     - Mean error: {central['mean_error']:.6e}")

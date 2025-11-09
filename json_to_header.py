@@ -203,7 +203,7 @@ class InverseCumulativeNormal {{
     with open(output_path, 'w') as f:
         f.write(header)
     
-    print(f"✅ Generated C++ header: {output_path}")
+    print(f" Generated C++ header: {output_path}")
     print(f"   Source: {json_path}")
     print(f"   Central: ({central['degree_m']},{central['degree_n']}), Tail: ({tail['degree_p']},{tail['degree_q']})")
 

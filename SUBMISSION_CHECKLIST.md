@@ -138,17 +138,6 @@ submission_package/
 - Minimal branching in hot paths
 - Cache-friendly memory layout
 
-## Interview Preparation
-
-Key points to discuss:
-
-1. Piecewise approach: why better than single global approximation
-2. Tail transformation: sqrt(-2 log(m)) improves conditioning
-3. Halley vs Newton: third-order vs second-order convergence
-4. Stable residual: log-space computation prevents cancellation
-5. JSON bridge: separates computation from code generation
-6. Degree selection: empirical trade-off between accuracy and speed
-
 ## Known Limitations
 
 1. Vector path uses compiler auto-vectorization (not explicit SIMD)
@@ -171,4 +160,3 @@ This implementation demonstrates:
 - Clear technical communication
 - Production-ready code quality
 
-All assignment requirements met or exceeded.
